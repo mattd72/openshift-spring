@@ -1,4 +1,4 @@
-FROM nimmis/java-centos
+FROM java:8
 VOLUME /tmp
 ADD openshift-spring-0.1.0.jar openshift-spring-0.1.0.jar
 RUN bash -c 'touch /openshift-spring-0.1.0.jar'
